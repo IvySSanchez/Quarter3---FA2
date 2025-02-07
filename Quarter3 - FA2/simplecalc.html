@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Simple Calculator</title>
+    <link rel="stylesheet" href="simplecalccss.css">
+</head>
+<body>
+
+    <h1>Simple Calculator</h1>
+    <div id="instructions">
+        <p>Welcome to the Simple Calculator!</p>
+        <p>To use the calculator:</p>
+        <ol>
+            <li>Enter a number in the first box (Num 1).</li>
+            <li>Enter a number in the second box (Num 2).</li>
+            <li>Click one of the operation buttons (+, -, *, /, %).</li>
+            <li>The result will be displayed below the buttons.</li>
+        </ol>
+    </div>
+    
+    <input type="text" id="num1" placeholder="Num 1">
+    <input type="text" id="num2" placeholder="Num 2"><br>
+    
+    <button onclick="calculate('+')">+</button>
+    <button onclick="calculate('-')">-</button>
+    <button onclick="calculate('*')">*</button>
+    <button onclick="calculate('/')">/</button>
+    <button onclick="calculate('%')">%</button>
+    
+    <p id="result">Results will be displayed here.</p>
+
+    <script src="simplecalcjs.js"></script>
+</body>
+</html>

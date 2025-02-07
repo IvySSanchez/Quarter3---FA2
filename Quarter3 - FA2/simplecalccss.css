@@ -1,0 +1,21 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+input {
+    margin: 5px;
+    width: 50px;
+}
+
+button {
+    margin: 5px;
+}
+
+#result {
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+#instructions {
+    margin-bottom: 20px;
+}
